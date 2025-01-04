@@ -1,4 +1,4 @@
 build:
-		gcc main.c -o tema1 -lpthread
+		g++ main.cpp -o tema1 -lpthread -Wall -Wextra -Werror
 clean:
 		rm tema1
